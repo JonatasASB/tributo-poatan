@@ -19,8 +19,8 @@ body {
 .column {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 header {
     background-color: rgba(46, 46, 46, 0.75);
@@ -62,30 +62,29 @@ ul a:hover {
 }
 main {
     margin: 15px 0 0 0;
-    display: flex;
 }
 .resume {
    width: 550px;
    display: flex;
    flex-direction: column;
    align-items: center;
-   background-color: #a7a7a7;
+   background-color: rgba(167, 167, 167, 0.062);
+   box-shadow: 0 0 10px #555;
    border-radius: 7px;
    padding: 0 15px 15px 15px;
    margin-bottom: 15px;
+
 }
 .title-resume {
     font-size: 25px;
     font-weight: 450;
-    color: #000;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #444;
 }
 .body-resume {
     text-align:justify;
     letter-spacing: 1.5px;
     font-size: 17px;
-    color: #000;
-    text-shadow: 0px 0px 1px #222;
+    
 }
 .initial {
     margin: 15px;
@@ -98,11 +97,14 @@ main {
     font-size: 25px;
     font-weight: 450;
     border-bottom: 1px solid #a7a7a7;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .fight {
     display: flex;
     align-items: center;
-    margin: 10px 10px 0 0;
+    margin: 10px 0 10px 10px;
+    background-color: rgba(167, 167, 167, 0.062);
 }
 .green {
     display: block;
