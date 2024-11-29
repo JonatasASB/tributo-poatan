@@ -157,3 +157,34 @@ footer {
     padding: 10px;
     color: #555;
 }
+@media (max-width:600px) {
+    .initial {
+        margin: 0;
+    }
+    .fight {
+        margin-left: 3px;
+    }
+    .title-last-fight {
+        margin-left: 3px;
+    }
+    .video-last-fight iframe {
+        margin-left: 3px;
+    }
+}
+@media (max-width:450px) {
+    .fight {
+        margin-left: 0;
+    }
+    .title-last-fight {
+        margin-left: 0;
+    }
+    .video-last-fight iframe {
+        margin-left: 0;
+    }
+    .green {
+        height: 110.344px;
+    }
+    .red {
+        height: 73.563px;
+    }
+}
