@@ -1,4 +1,4 @@
-html {
+body, html {
     overflow-x: hidden !important;
 }
 body {
@@ -90,13 +90,12 @@ main {
     
 }
 .initial {
-    margin: 15px;
+    margin: 15px 0 15px 15px;
     flex-direction: column;
     justify-content: start ;
     align-items: baseline;
 }
 .title-time-line {
-    margin: auto;
     font-size: 25px;
     font-weight: 450;
     border-bottom: 1px solid #a7a7a7;
@@ -123,4 +122,38 @@ main {
     height: 50px;
     margin: 0 20px 0px 0;
     background-color: rgba(241, 82, 82, 0.514);
+}
+.title-last-fight {
+    display: inline-block;
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 25px;
+    border-bottom: 1px solid #a7a7a7;
+}
+.obs-last-fight {
+    margin: 0 0 10px 25px;
+}
+.container-video {
+    max-width: 450px;
+}
+.video-last-fight {
+    position: relative;
+    height: 0;
+    padding: 0 0 56.25%;
+}
+.video-last-fight iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 25px;
+}
+footer {
+    background-color: #000;
+    margin-top: 20px;
+    padding: 10px;
+    color: #555;
 }
