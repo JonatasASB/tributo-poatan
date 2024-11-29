@@ -1,6 +1,8 @@
+html {
+    overflow-x: hidden !important;
+}
 body {
     background-color: rgba(46, 46, 46, 1);
-    overflow-x: hidden !important;
 }
 .open-sans-uniquifier {
   font-family: "Open Sans", sans-serif;
@@ -55,7 +57,7 @@ ul a:hover {
     font-size: 25px;
     color:#f5f5f5;
     text-align: center;
-    margin: 10px 0 0 0;
+    margin: auto;
 }
 .header-emoji {
     text-align: center;
@@ -70,6 +72,7 @@ main {
    align-items: center;
    background-color: rgba(167, 167, 167, 0.062);
    box-shadow: 0 0 10px #555;
+   border: 1px solid  rgba(167, 167, 167, 0);;
    border-radius: 7px;
    padding: 0 15px 15px 15px;
    margin-bottom: 15px;
@@ -101,6 +104,7 @@ main {
     margin-bottom: 20px;
 }
 .fight {
+    max-width: 1030px;
     display: flex;
     align-items: center;
     margin: 10px 0 10px 10px;
